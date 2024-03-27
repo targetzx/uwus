@@ -1,7 +1,7 @@
 
 // ================================================================
 
-const EAGLER_1_8_CLIENT = "/mc/1.8.8/";
+const EAGLER_1_8_CLIENT = "https://api.astoris.pro/";
 const EAGLER_1_5_CLIENT = "/mc/1.5.2/";
 const EAGLER_B1_3_CLIENT = "/mc/b1.3/";
 const EAGLER_INDEV_CLIENT = "/mc/indev/";
@@ -9,7 +9,7 @@ const EAGLER_A1_2_6_CLIENT = "/mc/a1.2.6/";
 
 const COUNTER = "https://api.api-ninjas.com/v1/counter?id=eaglercraft.com&hit=true";
 
-const EAGLER_1_8_OFFLINE = [ "https://bafybeieswo56iapqi5eojfrp2soxd2umfkiycvy4366dudqjomh57dajgq.ipfs.dweb.link/?filename=EaglercraftX_1.8_Signed_Singleplayer_Offline.zip", "EaglercraftX_1.8_Signed_Singleplayer_Offline.zip" ];
+const EAGLER_1_8_OFFLINE = [ "https://api.astoris.pro/", "https://api.astoris.pro/" ];
 const EAGLER_1_5_OFFLINE = [ "https://bafybeihqzktptevgim3shzanqnwcdnstac2ud6rqe5zrtudcuo3gnzhsui.ipfs.dweb.link/?filename=Offline_Download_Version.zip", "Offline_Download_Version.zip" ];
 const EAGLER_B1_3_OFFLINE = [ "https://bafybeifggl6gatmtuwxeb46mq3qe3j5fgmoztkxpi5hgvqollnpxyfcr7q.ipfs.dweb.link/?filename=Eaglercraft_Beta_Offline_Download.zip", "Eaglercraft_Beta_Offline_Download.zip" ];
 const EAGLER_INDEV_OFFLINE = [ "https://bafybeiaw4qf57qitpu2eza2pvs3qepeiq3ea3qnolgrepnnridnhfoqiui.ipfs.dweb.link/?filename=Indev.zip", "Indev.zip" ];
