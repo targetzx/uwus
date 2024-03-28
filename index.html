@@ -24,7 +24,7 @@
     <!-- Google tag (gtag.js) -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-64TQKQ7TWQ"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || []; 
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
@@ -33,15 +33,18 @@
     <script>
         var today = new Date();
         var datewntr = new Date("2024-03-27");
+	var datedragonx = new Date("2024-03-28");
         var date188 = new Date("2022-12-02");
         var date13 = new Date("2022-05-02");
         var date152 = new Date("2022-02-01");
-        var winterupdate = Math.round((today - datewntr) / (1000 * 60 * 60 * 24));
+        var dragonxupdate = Math.round((today - datedragonx) / (1000 * 60 * 60 * 24));
+	var winterupdate = Math.round((today - datewntr) / (1000 * 60 * 60 * 24));
         var eagler188 = Math.round((today - date188) / (1000 * 60 * 60 * 24));
         var eaglerbeta13 = Math.round((today - date13) / (1000 * 60 * 60 * 24));
         var eagler152 = Math.round((today - date152) / (1000 * 60 * 60 * 24));
         $(document).ready(function() {
             $("#news__winterupdate").text(winterupdate + " days ago");
+	    $("#news__dragonxupdate").text(dragonxupdate + " days ago");
             $("#news__eagler188").text(eagler188 + " days ago");
         });
     </script>
@@ -573,12 +576,22 @@
                 <section class="left three_col social" id="updates">
                     <h2>Cheatsense Updates</h2>
                     <br>
-                    <a href="">Release</a>
-                    <p id="news__winterupdate" class="time">loading...<p>
-                        Update 0.1
+
+	            <a href="">Release</a>
+		    <p id="news__winterupdate" class="time">loading...<p>
+                        Update 0.2
 
                         Release
                     </p></p>
+			
+                    <a href="">Dragon X</a>
+                    <p id="news__dragonxupdate" class="time">loading...<p>
+                        Update 0.2
+
+                        + New client (dragon x)
+			+ minor bug fixes
+                    </p></p>
+
                 </section>
             </section>
         </section>
@@ -616,7 +629,7 @@
         </aside>
     </main>
     <footer class="footer" aria-label="Footer containing legal information">
-        TargCorp 2023-2024 — 
+        Cheatsense 2024 — 
          — This website is not affiliated with Mojang.
          - If Mojang OR Eaglercraft. Has an issue with me doing this please join our discord
     </footer>
