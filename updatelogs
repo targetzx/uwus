@@ -1,0 +1,601 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src="js/element.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/firebase-app.js"></script>
+    <script src="js/firebase-database.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="Cheatsense is an awesome browser-based voxel game that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It even supports multiplayer, so you can game with players from around the world.">
+    <meta name="keywords" content="Cheatsense, Cheatsensex, minecraft, 1.8, 1.8.8, Cheatsense, Cheatsense minecraft, Cheatsense 3kh0, Cheatsense github, Cheatsense singleplayer, Cheatsense hacks, Cheatsense 1.8, Cheatsense server, Cheatsense game, Cheatsense alternative, Cheatsense alt links, Cheatsense asspixel, Cheatsense anarchy server, Cheatsense aeon, Cheatsense asspixel server ip, Cheatsense all links, Cheatsense aeon server">
+    <meta name="ab50de5f6869dbb2a23a76666d4f4639c831c074" content="ab50de5f6869dbb2a23a76666d4f4639c831c074">
+    <meta property="og:title" content="An awesome, free voxel game | Cheatsense">
+    <meta property="og:locale" content="en-US">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/titleBG.png">
+    <meta property="og:description" content="Cheatsense is an awesome browser-based voxel game that you can play in any regular web browser. That includes school chromebooks, it works on all chromebooks. It even supports multiplayer, so you can game with players from around the world.">
+
+    <!-- Google tag (gtag.js) -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-64TQKQ7TWQ"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []; 
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-64TQKQ7TWQ');
+    </script>
+    <script>
+        var today = new Date();
+        var datewntr = new Date("2024-03-27");
+	var datedragonx = new Date("2024-03-28");
+        var date188 = new Date("2022-12-02");
+        var date13 = new Date("2022-05-02");
+        var date152 = new Date("2022-02-01");
+        var dragonxupdate = Math.round((today - datedragonx) / (1000 * 60 * 60 * 24));
+	var winterupdate = Math.round((today - datewntr) / (1000 * 60 * 60 * 24));
+        var eagler188 = Math.round((today - date188) / (1000 * 60 * 60 * 24));
+        var eaglerbeta13 = Math.round((today - date13) / (1000 * 60 * 60 * 24));
+        var eagler152 = Math.round((today - date152) / (1000 * 60 * 60 * 24));
+        $(document).ready(function() {
+            $("#news__winterupdate").text(winterupdate + " days ago");
+	    $("#news__dragonxupdate").text(dragonxupdate + " days ago");
+            $("#news__eagler188").text(eagler188 + " days ago");
+        });
+    </script>
+    <script src="js/video.min.js"></script>
+    <script src="js/count.js"></script>
+    <script src="js/fb.js"></script>
+    <script src="js/helper.js"></script>
+    <link href="css/video-js.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheatsense</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <style>
+        * {
+            box-sizing: border-box;
+            --color-white: #ffffff;
+            --color-bright: #e0d0d0;
+            --color-blue: #4444c9;
+	    --color-blue-dark: #1f29b3;
+            --color-gray: #595959;
+            --color-light-gray: #8e8e8e;
+            --color-red: #9b1616;
+            --color-green: #199719;
+            --color-orange: #f7942b;
+            --color-orange-dark: #b36b1f;
+            --padding: 1em
+        }
+
+        h1 {
+            font-size: 1.75em
+        }
+
+        p,
+        ol {
+            margin-top: 1.5em;
+        }
+
+        h2 {
+            font-size: 1.5em
+        }
+
+        body {
+            margin: 0;
+            overflow-y: scroll;
+	    image-rendering: optimizeSpeed;
+	    image-rendering: pixelated;
+	    image-rendering: -webkit-optimize-contrast;
+	    image-rendering: optimize-contrast;
+            background-color: #1d1d1d;
+            background-image: url("images/stone.png");
+            font-family: sans-serif;
+            color: var(--color-bright)
+        }
+
+        a {
+            color: var(--color-blue);
+            text-decoration: none
+        }
+
+        .news {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        .intro {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        iframe {
+            display: flex;
+            border: none
+        }
+
+        img {
+            image-rendering: optimizeSpeed;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: pixelated;
+        }
+
+        a,
+        a:visited {
+            text-decoration: none
+        }
+
+        .time {
+            font-size: 11px;
+            margin-top: 0.5em;
+            color: #8e8e8e
+        }
+
+        .small {
+            font-size: 11px;
+        }
+
+        .small a {
+            text-decoration: none;
+        }
+
+        li {
+            margin-top: 1em;
+            font-size: 0.8em
+        }
+
+        ul {
+            margin-top: 0.1em;
+        }
+
+        p {
+            font-size: 0.8em
+        }
+
+        ::-moz-selection {
+            background: #71b147;
+            color: #593d29;
+            text-shadow: none;
+        }
+
+        ::selection {
+            background: #71b147;
+            color: #593d29;
+            text-shadow: none;
+        }
+
+        .p--warning {
+            color: var(--color-orange);
+            font-weight: bold;
+            margin-block-start: 0px;
+            margin-block-end: 0px;
+            font-size: 11px;
+            text-align: center
+        }
+
+        .span--note {
+            color: var(--color-light-gray);
+            font-size: smaller
+        }
+
+        .navigation-container {
+            background-image: url("images/dirt.png");
+            height: 48px;
+            margin-bottom: 2em;
+            padding-left: var(--padding);
+            padding-right: var(--padding)
+        }
+
+        .navigation {
+            margin: auto;
+            max-width: 62.5rem;
+            display: flex;
+            flex-direction: row;
+            place-items: center;
+            column-gap: 1em;
+            height: 100%
+        }
+
+        .navigation__logo {
+            float: left;
+            width: 260px;
+            height: 48px;
+            background: transparent url(images/CheatSense.png) no-repeat 0 1px;
+            display: block;
+            overflow: hidden;
+            text-indent: -10000px
+        }
+
+        .navigation__links--start {
+            text-align: start
+        }
+
+        .navigation__links--end {
+            text-align: end;
+            flex: 1
+        }
+
+        .navigation__link {
+            font-weight: bold;
+            padding: 0.5em
+        }
+
+        .navigation__link--white {
+            color: var(--color-white)
+        }
+
+        .navigation__link--dropdown {
+            color: var(--color-white);
+            position: relative;
+            display: inline-block
+        }
+
+        .navigation__link--dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #444;
+          min-width: 200px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+        }
+
+        .navigation__link--dropdown-content a {
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .navigation__link--dropdown:hover .navigation__link--dropdown-content {
+          display: block;
+        }
+
+        .navigation__link--dropdown-content a:hover {
+            background-color: #595959;
+        }
+
+        .navigation__link--eng {
+            font-weight: bold;
+            text-decoration: underline
+        }
+
+        .navigation__link--ru {
+            font-weight: bold
+        }
+
+        .main {
+            width: 1000px;
+            margin: 0 auto;
+            margin-top: 1em;
+            position: relative;
+            padding: 20px 0 40px;
+            display: flex;
+            place-content: center;
+            column-gap: 2em;
+            row-gap: 2em
+        }
+
+        .main--legal {
+            flex-direction: column;
+            column-gap: 0;
+            row-gap: 0
+        }
+
+        .section--wide {
+            width: 100%
+        }
+
+        .left {
+            width: 640px;
+            float: left;
+        }
+
+        .footer {
+            color: var(--color-gray);
+            margin: 2em;
+            text-align: center;
+            font-size: smaller;
+            position: relative;
+            margin-top: -32px;
+            height: 34px;
+            padding-top: 38px;
+            clear: both
+        }
+
+        .footer__link {
+            color: var(--color-light-gray)
+        }
+
+        .button {
+            background: linear-gradient(#9e9e9e, #4e4e4e);
+            color: var(--color-white);
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            place-items: center;
+            place-content: center;
+            border-radius: 0.25em;
+            padding: 0.5em 1em
+        }
+
+        select {
+            background-image: url("images/dirt.png");
+            color: #ffffff;
+            background-color: #444;
+            padding: 0 10px;
+            font-size: 15px;
+        }
+
+        .button--orange {
+            background: linear-gradient(var(--color-orange), var(--color-orange-dark))
+        }
+
+	.button--blue {
+            background: linear-gradient(var(--color-blue), var(--color-blue-dark))
+        }
+
+
+        .status-message {
+            max-width: 44em;
+            margin: auto auto 2em;
+            padding-left: var(--padding);
+            padding-right: var(--padding);
+            display: flex;
+            column-gap: 1em;
+            place-content: center;
+            place-items: center
+        }
+
+        .status-message__description {
+            text-align: initial;
+            font-size: larger;
+            flex: 1;
+            margin: 0
+        }
+
+        .trailer-video {
+            margin-top: 2em;
+            width: 100%
+        }
+
+        .play-now {
+            margin-top: 2em;
+            display: flex;
+            flex-direction: column;
+            place-items: center
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            place-items: center
+        }
+
+        .play-now__button {
+            font-size: 130%;
+            margin-top: 2.25em;
+            width: 200px
+        }
+
+        .downloads {
+            display: flex;
+            flex-direction: column;
+            width: 100%
+        }
+
+        .downloads__thumbnail {
+            width: 100%;
+            align-self: center;
+            margin-top: 1em;
+            margin-bottom: 2.5em
+        }
+
+        .downloads__links {
+            display: flex;
+            column-gap: 1em;
+            row-gap: 1em
+        }
+
+        .downloads__link {
+            flex: 1
+        }
+
+        .downloads__other {
+            margin-top: 1em;
+            display: flex;
+            place-content: center;
+            column-gap: 1em;
+            flex-wrap: wrap
+        }
+
+        .utilities {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 1em;
+            place-content: center;
+            row-gap: 1em
+        }
+
+        .utility {
+            display: flex;
+            flex-direction: column;
+            width: 25em
+        }
+
+        .utility__description {
+            flex: 1
+        }
+
+        .account-form {
+            max-width: 40em;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            row-gap: 1em
+        }
+
+        .form__input {
+            margin-top: 0.25em;
+            width: 100%;
+            padding: 0.4em
+        }
+
+        .account-form__link {
+            font-size: smaller
+        }
+
+        .form-submit {
+            width: 50%;
+            margin-top: 0.25em
+        }
+
+        @media (max-width: 65em) {
+            .navigation__user-status {
+                display: none
+            }
+        }
+
+        @media (max-width: 50em) {
+            main {
+                margin: 1em;
+                flex-direction: column
+            }
+
+            .navigation__home {
+                display: none
+            }
+
+            .navigation__separator--account,
+            .navigation__user-status {
+                display: none
+            }
+
+            .downloads__links--wide {
+                flex-direction: column
+            }
+        }
+
+        @media (max-width: 37em) {
+            .navigation__username {
+                display: none
+            }
+
+            .navigation__separator {
+                display: none
+            }
+        }
+
+        section.left.three_col {
+            width: 300px;
+            float: left
+        }
+
+        section.mid.three_col,
+        section.right.three_col {
+            width: 300px;
+            margin-left: 40px;
+            float: left
+        }
+
+        section.right.three_col.double {
+            width: 640px;
+            margin-left: 40px;
+            float: left
+        }
+
+        section.social h2 {
+            font-size: 18px;
+            padding-left: 40px;
+            background-repeat: no-repeat;
+            padding-top: 5px;
+            height: 29px;
+            margin-bottom: 1em
+        }
+
+        section.social#updates h2 {
+            background-image: url('images/updates.png')
+        }
+
+        section.social#community h2 {
+            background-image: url('images/community.png')
+        }
+
+        section.social#contact h2 {
+            background-image: url('images/contact.png')
+        }
+
+        .giveaway {
+            margin-top: 1em;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header class="navigation-container" aria-label="Header">
+        <nav aria-label="Top Bar" class="navigation">
+            <a class="navigation__logo" href="/">Minecraft</a>
+            <div class="navigation__links navigation__links--start" aria-label="Site navigation">
+                <a class="navigation__link navigation__link--white" href="https://discord.gg/Y3nVMcSK2M">Discord</a>
+		<a class="navigation__link navigation__link--white" href="https://donate.stripe.com/eVa16O1503897viaEF?">Donation</a>
+		<a class="navigation__link navigation__link--white" href="https://discord.gg/DaDx26nDm2">Goff Client</a>
+                <!-- <a class="navigation__link navigation__link--white" href="/p/downloads/">Downloads</a> -->
+
+            </div>
+            <div class="navigation__links navigation__links--end" aria-label="Browser Note">
+
+                <!-- <a class="navigation__link">Log in</a> -->
+                <!-- <span class="navigation__separator" aria-hidden="true">|</span> -->
+                <!--  <a class="navigation__link">Register</a> -->
+                <!-- <a class="navigation__link navigation__link--eng" href="">English</a> -->
+                <!-- <span class="navigation__separator" aria-hidden="true">|</span> -->
+                <!-- <a class="navigation__link navigation__link--ru" href=""onclick='alert("русские переводы еще не закончены((");'>Русский</a> -->
+                <div id="google_translate_element"></div>
+            </div>
+        </nav>
+    </header>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8813036089409443" data-ad-slot="6448006232" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    <main class="main" aria-label="Main content">
+        <section classes="left" aria-label="Main">
+            <br>
+            <section style="display:flex">
+                <section class="left three_col social" id="updates">
+                    <h2>Cheatsense Updates</h2>
+                    <br>
+
+	            <a href="">Release</a>
+		    <p id="news__winterupdate" class="time">loading...<p>
+                        Update 0.2
+
+                        Release
+                    </p></p>
+			
+                    <a href="">Dragon X</a>
+                    <p id="news__dragonxupdate" class="time">loading...<p>
+                        Update 0.2
+
+                        + New client (dragon x)
+			+ minor bug fixes
+                    </p></p>
+
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer class="footer" aria-label="Footer containing legal information">
+        Cheatsense 2024 — 
+         — This website is not affiliated with Mojang.
+         - If Mojang OR Eaglercraft. Has an issue with me doing this please join our discord
+    </footer>
+
+
+
+</body></html>
